@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px; 
 }
+h2{
+    font-size: 40px;
+}
 h1 span{
     color: orange;
     
@@ -47,4 +50,34 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right ;
+}
+.heading-color{
+    color: orange;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    width:80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    
+}
+footer{
+    text-align: center;
+}
+.more{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat; 
+    background-position-y: bottom;
+
+}
+#border-2{
+    border-left:10px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+#border-1{
+    border-left:10px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
 }
