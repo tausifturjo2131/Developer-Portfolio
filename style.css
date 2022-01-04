@@ -1,10 +1,41 @@
-#Nam{
-    color: orange;
-    
-}
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px; 
+}
+h1 span{
+    color: orange;
+    
+}
+p{
+    width: 800px;
+    font-size: 18px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 80%;    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 800;
+    padding: 10px 25px;
+    border-radius:10px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
 }
