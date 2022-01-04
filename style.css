@@ -14,7 +14,7 @@ p{
     width: 800px;
     font-size: 18px;
 }
-section{
+.flexible-container{
     display: flex;
     
 }
@@ -46,5 +46,5 @@ section{
 .Idol{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right ;
 }
